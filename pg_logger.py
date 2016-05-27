@@ -1243,7 +1243,9 @@ class PGLogger(bdb.Bdb):
                              ordered_globals=[],
                              stack_to_render=[],
                              heap={},
-                             stdout=get_user_stdout(tos[0]))
+                             stdout=get_user_stdout(tos[0]),
+                             evaluation=generate_steps(self.get_script_line(lineno), 
+                                current_locals, encoded_globals, self.returned_values))
         else:
           trace_entry = dict(line=lineno,
                              script_line=self.get_script_line(lineno),

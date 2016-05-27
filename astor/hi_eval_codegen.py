@@ -312,6 +312,8 @@ class HighlightSourceGenerator(SourceGenerator):
                     return_index = return_index - 1
                     found = True
                     break
+            if not found:
+                super(HighlightSourceGenerator, self).visit_Call(node)
         else:
             super(HighlightSourceGenerator, self).visit_Call(node)
 
@@ -413,10 +415,8 @@ class EvalSourceGenerator(SourceGenerator):
                         self.write(' >>>>>')
                         found = True
                         break
-            if not found and node.id != '___':
-                self.write('<<<<< ___ >>>>>')  
-            elif not found and node.id == '___':
-                self.write('___')
+            if not found:
+                self.write(node.id)
         else:
             self.write(node.id)
 
@@ -536,6 +536,6 @@ class EvalSourceGenerator(SourceGenerator):
                     found = True
                     break
             if not found:
-                self.write('<<<<< ___ >>>>>')
+                super(EvalSourceGenerator, self).visit_Call(node)
         else:
             super(EvalSourceGenerator, self).visit_Call(node)

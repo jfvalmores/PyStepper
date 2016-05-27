@@ -2026,6 +2026,10 @@ ExecutionVisualizer.prototype.updateEvalField = function() {
   
   var myViz = this; // to prevent confusion of 'this' inside of nested functions
   var evaluation = myViz.curTrace[myViz.curInstr].evaluation; // stores the evaluation steps of a line
+  if (evaluation == null) {
+    evaluation = [""];
+    return;
+  }
   var totalEvals = evaluation.length; // getting length of array "evaluation"
   var evalControls = myViz.domRoot.find("#evalControls");
   var isLastEval = (myViz.curEval == (totalEvals-1));
