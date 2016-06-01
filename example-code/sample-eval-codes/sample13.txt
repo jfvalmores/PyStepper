@@ -1,0 +1,10 @@
+x = True
+y = False
+a = True and False or True and not False
+b = False or True and True or not True
+c = False and True or False or not False and True
+d = False or True and False or not False or not True
+e = not False or True and False and True
+z = not False and not True or not False or not False and not True or x and y
+print z and e and d and c and b and a and y and x or 1 and 2
+print z or e and d and c and b and a and y and x or 1 and 2

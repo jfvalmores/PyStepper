@@ -1,0 +1,9 @@
+x = 5
+y = 10
+z = x + y
+def add_4_andY(x):
+	def return_num(y):
+		return y
+	return x + y + z + return_num(x) * return_num(y) + return_num(z)
+z = add_4_andY(x)
+print z

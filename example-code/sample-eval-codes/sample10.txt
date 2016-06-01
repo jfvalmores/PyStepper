@@ -1,0 +1,10 @@
+(not False and False) and (True or True)
+(not True and False) and (True or True)
+True or False and False and False and False or False and False
+False and True or True and True or True and True or True
+False and (True or True and True or True and True or True)
+False or True and False
+True and False or True
+False and True or True
+True or False and True
+(2 < 3) or (0 / 1)

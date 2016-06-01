@@ -1,0 +1,12 @@
+x = not True and True or True
+y = not False or False and False
+if True or False or y and x or y:
+	x = x and y or True and False or True
+if not True and True or False and True:
+	y = y and False and True or False
+print not x
+print not y
+y = False or True and False
+x = not False or False and False and True or not True
+x or y and x and y or x and y and y
+x or not y and not x and not y or not x and not y and not y

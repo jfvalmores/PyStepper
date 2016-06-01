@@ -1,0 +1,11 @@
+x = ((5 * 5) / 2) + ((10 - 1) % 6)
+y = 23
+def hello(y):
+	y = 21
+	if x >= y:
+		return x
+	return y
+z = hello(y)
+x = "The Beatles - Hey Jude"
+print z
+print x

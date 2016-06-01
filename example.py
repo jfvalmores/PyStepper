@@ -1,16 +1,17 @@
 #===========================================# passed
-# y = (-6) + (8 + 5) * 10
-# x = ((9 - 2) + 4) + 2 + ((5 * 5) / 2) + ((10 - 1) % 6)
-# answer = y + x + 5 * 5 / 2 + 10 - 1 % 6
-# print x
-# x = x + -(15 + 15)
-# a = (True or False) and False
-# b = True and False
-# c = not False or not True
-# d = "justinefrancis"[1:12]
-# print x + y + answer
-# print a or b and c
-# print d
+y = (-6) + (8 + 5) * 10
+x = ((9 - 2) + 4) + 2 + ((5 * 5) / 2) + ((10 - 1) % 6)
+answer = y + x + 5 * 5 / 2 + 10 - 1 % 6
+print x
+x = x + -(15 + 15)
+a = (True or False) and False
+b = True and False
+c = not False or not True
+d = "justinefrancis"[1:12]
+print x + y + answer
+print a or b and c
+print d
+print 'x' * 3
 #===========================================# passed
 # x = ((5 * 5) / 2) + ((10 - 1) % 6)
 # y = 23

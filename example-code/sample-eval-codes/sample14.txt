@@ -1,0 +1,5 @@
+def n_b(b):
+	return not b
+y = True
+x = False or True or n_b(y)
+print x

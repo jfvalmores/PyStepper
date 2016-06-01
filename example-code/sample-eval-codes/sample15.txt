@@ -1,0 +1,9 @@
+x = 1
+y = 'hello'
+x < 10 and False
+x or False or y
+while x < 10:
+	print x + 1
+	print "horray!"
+	x += 1
+print "byeeeee!"

@@ -1,0 +1,15 @@
+(True or True) and True
+True and True or False
+True or False or True
+False and True or True
+True or False and False
+False or False or True
+True or (False and False)
+1 + 1 and 3 or 'fsaor'
+x = 'ffff'
+y = "dddd"
+'d' + 'f'
+x + y
+1 and 's'
+print x
+print y

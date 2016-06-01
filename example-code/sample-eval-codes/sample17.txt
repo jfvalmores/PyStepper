@@ -1,0 +1,14 @@
+'x' and 'False' or ''
+True or 'as'
+1 and False
+True or 2
+True and 2
+1 and 1
+2 or 3
+'as' and 's'
+'asd' or 'asd'
+not "ads" or not ''
+not 0 and not 1
+not -1 and not 10023
+not False
+'aaaaa'

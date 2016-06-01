@@ -1,0 +1,6 @@
+x = 5
+def add_5(x):
+  y = x + 10
+  return y + 5
+z = add_5(x)
+print z

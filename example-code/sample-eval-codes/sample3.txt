@@ -1,0 +1,14 @@
+x = 5
+y = 10
+z = x + y
+a = x * y + z
+print a
+def add_4_andY(x):
+	if x <= 4 == 5:
+		return "yes" + "!!!"
+	else:
+		return "no" + "!!!"
+y = x
+z = add_4_andY(y)
+print z
+print True and True and False

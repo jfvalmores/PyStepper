@@ -1,0 +1,10 @@
+x = 1
+def add_4(x):
+	return x + 4 
+def add_5(x):
+	return x + 5 + add_4(x)
+def add_6(x):
+	return x + 6 + add_5(x)
+a = add_4(1) + add_5(2) + add_6(3)
+print a
+print y

@@ -1,0 +1,8 @@
+x = 5
+y = 6
+def foo(x):
+	def bar(y):
+		return x + y
+	return bar(x)
+a = foo(x) + foo(y)
+print a

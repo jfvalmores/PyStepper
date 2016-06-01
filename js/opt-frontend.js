@@ -520,6 +520,23 @@ var JAVA_EXAMPLES = {
 };
 
 var PY2_EXAMPLES = {
+  sample1: "example-code/sample-eval-codes/sample1.txt",
+  sample2: "example-code/sample-eval-codes/sample2.txt",
+  sample3: "example-code/sample-eval-codes/sample3.txt",
+  sample4: "example-code/sample-eval-codes/sample4.txt",
+  sample5: "example-code/sample-eval-codes/sample5.txt",
+  sample6: "example-code/sample-eval-codes/sample6.txt",
+  sample7: "example-code/sample-eval-codes/sample7.txt",
+  sample8: "example-code/sample-eval-codes/sample8.txt",
+  sample9: "example-code/sample-eval-codes/sample9.txt",
+  sample10: "example-code/sample-eval-codes/sample10.txt",
+  sample11: "example-code/sample-eval-codes/sample11.txt",
+  sample12: "example-code/sample-eval-codes/sample12.txt",
+  sample13: "example-code/sample-eval-codes/sample13.txt",
+  sample14: "example-code/sample-eval-codes/sample14.txt",
+  sample15: "example-code/sample-eval-codes/sample15.txt",
+  sample16: "example-code/sample-eval-codes/sample16.txt",
+  sample17: "example-code/sample-eval-codes/sample17.txt",
   tutorialExampleLink: "example-code/py_tutorial.txt",
   strtokExampleLink: "example-code/strtok.txt",
   listCompLink: "example-code/list-comp.txt",
