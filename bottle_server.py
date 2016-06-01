@@ -18,6 +18,7 @@ import json
 import pg_logger
 import urllib
 import urllib2
+import os
 
 
 @route('/<filepath:path>')
@@ -105,4 +106,5 @@ if n_fail == 0:
 
 if __name__ == "__main__":
     # run(host='localhost', port=8080, reloader=True)
-    run(host='0.0.0.0', port=8003, reloader=True) # make it externally visible - DANGER this is very insecure since there's no sandboxing!
+    # run(host='0.0.0.0', port=8003, reloader=True) # make it externally visible - DANGER this is very insecure since there's no sandboxing!
+    run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000))) # based on http://bottlepy.org/docs/dev/recipes.html
