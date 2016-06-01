@@ -23,7 +23,7 @@ import os
 
 @route('/')
 def home():
-    redirect('http://jfrancis-pystepper.herokuapp.com/visualize.html')
+    redirect('http://jfrancis-pystepper.herokuapp.com/visualize.html') # homepage :)
 
 @route('/<filepath:path>')
 def index(filepath):
